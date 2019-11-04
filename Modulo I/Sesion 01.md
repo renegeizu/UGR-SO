@@ -5,7 +5,7 @@ Herramientas de Administracion Basicas
 
 ### Actividad 1.1. Repaso de Scripts de Bash
 
-```console
+```bash
 	#!/bin/bash
 	cp /fenix/depar/lsi/UML/*.gz /tmp
 	cd /tmp
@@ -21,14 +21,10 @@ Herramientas de Administracion Basicas
 	sudo passwd natsu
 	sudo useradd -d /home/gray –m -s /bin/bash gray
 	sudo passwd gray
-```
 
-```console
 	sudo userdel natsu
 	# Deja su carpeta en /home/natsu
-```
 
-```console
 	su gray
 	ls -a /home/gray
 	# Lista de Archivos: .bash_logout .bashrc examples.desktop .profile
@@ -39,9 +35,7 @@ Herramientas de Administracion Basicas
 ```console
 	sudo groupadd icemaker
 	sudo gpasswd -a gray icemaker
-```
 
-```console
 	# uid=0(root) gid=0(root) grupos=0(root)
 ```
 

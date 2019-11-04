@@ -15,9 +15,7 @@ Herramientas de Administracion Basicas
 ```console
 	tune2fs -C <mount-count>
 	# El parámetro mount-count debe ser mayor que el valor max-mount-coun del parámetro -c.
-```
 
-```console
 	tune2fs /dev/loop0 –r <numero-bloques> –u <username>
 ```
 
@@ -40,21 +38,13 @@ Herramientas de Administracion Basicas
 
 ```console
 	rpm -qli <paquete>
-```
 
-```console
 	rpm -qc <paquete>
-```
 
-```console
 	rpm -q --whatrequires <paquete>
-```
 
-```console
 	rpm -ivh /fenix/depar/lsi/so/paquetes/quota-3.17-13.fc14.i686.rpm
-```
 
-```console
 	rpm -ivh /fenix/depar/lsi/so/paquetes/sysstat-9.0.6-3.fc13.i686.rpm
 	rpm -e --nodeps -v sysstat-9.0.6-3.fc13.i686
 ```
